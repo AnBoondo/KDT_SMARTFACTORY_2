@@ -1,0 +1,2 @@
+﻿  01_Initialize.cpp
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\01_Initialize\01_Initialize.cpp(8,41): error C2110: '+': 두 포인터를 더할 수 없습니다.
