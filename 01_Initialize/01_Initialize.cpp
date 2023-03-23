@@ -5,12 +5,20 @@
 
 int main()
 {
-	std::string test = "포스코" + "rrrr";
-	//test = "코딩온";
+	int a;
+	int b;
+	std::cin >> a;
+	std::cin >> b;
 
-	std::cout << test;
+	char c;
+	std::cin >> c;
+
+	if (c == '+');
+	std::cout << a + b;
+
+	
+	
 }
-
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
 

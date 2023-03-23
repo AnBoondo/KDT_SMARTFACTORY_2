@@ -1,2 +1,3 @@
 ﻿  01_Initialize.cpp
-C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\01_Initialize\01_Initialize.cpp(8,41): error C2110: '+': 두 포인터를 더할 수 없습니다.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\01_Initialize\01_Initialize.cpp(16,15): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+  01_Initialize.vcxproj -> C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\01_Initialize\x64\Debug\01_Initialize.exe
