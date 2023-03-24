@@ -2,19 +2,14 @@
 //
 
 #include <iostream>
-
+int multiple(int a, int b){
+	return a*b;
+}
 int main()
 {
-	int n, sum = 0;
-	std::cin >> n;
-
-	for (int i = 1; i <= n; i++) {
-		sum += i;
-	}
-	std::cout << sum;
-
-	return 0;
-
+	int a = 5;
+	int b = 7;
+	std::cout << multiple(a, b);
 }
 
 	
