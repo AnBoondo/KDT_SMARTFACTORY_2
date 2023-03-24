@@ -5,25 +5,22 @@
 
 int main()
 {
-		int i = 0;
-		std::cout << "1부터 3까지 숫자를 입력하세요" << std::endl;
-		while (1) {
-			int order;
-			std::cin >> order;
-			if (order == 1) {
-				std::cout << "아메리카노";
-			}
-			else if (order == 2) {
-				std::cout << "카페라때";
-			}
-			else if (order == 3) 
-				break;
-			
-			i++;
-		}
+	int n, sum = 0;
+	std::cin >> n;
+
+	for (int i = 1; i <= n; i++) {
+		sum += i;
+	}
+	std::cout << sum;
+
+	return 0;
+
+}
+
+	
    
 	
-}
+
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
