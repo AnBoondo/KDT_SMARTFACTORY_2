@@ -2,14 +2,29 @@
 //
 
 #include <iostream>
-int multiple(int a, int b){
-	return a*b;
+int add(int a, int b){
+	return a+b;
+}
+int minus(int a, int b) {
+	return a - b;
+}
+int multiple(int a, int b) {
+	return a * b;
+}
+int divide(int a, int b) {
+	return a / b;
 }
 int main()
 {
-	int a = 5;
-	int b = 7;
-	std::cout << multiple(a, b);
+	int a = 19;
+	int b = 5;
+	std::cout << "a+b=" << add(a, b);
+	std::cout << "\n";
+	std::cout << "a-b=" << minus(a, b);
+	std::cout << "\n";
+	std::cout << "a*b=" << multiple(a, b);
+	std::cout << "\n";
+	std::cout << "a/b=" << (float)divide(a, b);
 }
 
 	
