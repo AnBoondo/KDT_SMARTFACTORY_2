@@ -1,9 +1,8 @@
 ﻿// 2023_03_24.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
-
 #include <iostream>
-int add(int a, int b){
-	return a+b;
+int add(int a, int b) {
+	return a + b;
 }
 int minus(int a, int b) {
 	return a - b;
@@ -16,20 +15,32 @@ int divide(int a, int b) {
 }
 int main()
 {
-	int a = 19;
-	int b = 5;
+	float a = 19;
+	float b = 5;
 	std::cout << "a+b=" << add(a, b);
 	std::cout << "\n";
 	std::cout << "a-b=" << minus(a, b);
 	std::cout << "\n";
 	std::cout << "a*b=" << multiple(a, b);
 	std::cout << "\n";
-	std::cout << "a/b=" << (float)divide(a, b);
-}
+	float c = a / b;
+	std::cout << "a/b=" << c << std::endl;
 
-	
-   
-	
+
+	while (1)
+	{
+		int d;
+		std::cin >> d;
+
+		if (d % 2 == 0)
+			std::cout << d << "는 짝수입니다." << std ::endl;
+
+		else
+			std::cout << d << "는 홀수입니다." << std::endl;
+	}
+
+	return 0;
+}
 
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
