@@ -1,21 +1,30 @@
-﻿#include <iostream>
+﻿// ConsoleApplication1.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+//
 
+#include <iostream>
+int add(int a, int b) {
+	return a + b;
+}
+int minus(int a, int b) {
+	return a - b;
+}
+int multiple(int a, int b) {
+	return a * b;
+}
+float divide(int a, int b) {
+	return (float)a / (float)b;
+}
 int main()
 {
-	int num;
-	int sum = 0;
-	while (1)
-	{
-		std::cin >> num;
-		sum = sum + num;
-		if (num == 0)
-			break;
-
-	}
-	return 0;
+	int a = 19;
+	int b = 5;
+	std::cout << "a+b=" << add(a, b);
+	std::cout << "\n";
+	std::cout << "a-b=" << minus(a, b);
+	std::cout << "\n";
+	std::cout << "a*b=" << multiple(a, b) << "\n";
+	std::cout << "a/b=" << divide(a, b) << std::endl;
 }
-
-
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
 
