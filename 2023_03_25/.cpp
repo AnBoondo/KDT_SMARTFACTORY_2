@@ -21,4 +21,12 @@ int main() {
 	fruit1[0] = "apple";
 	fruit1[1] = "banana";
 	fruit1[2] = "grape";
+	
+	//sizeof() : 변수, 자료형의 크기를 byte 단위로 만들어준다
+	//예를 들어 int는 4byte인데 3개있으면 sizeof()이거는 12가 나온다.
+	for (int i = 0; i < sizeof(fruit)/sizeof(fruit[0]); i++) {
+		//sizeof(fruit)는 전체 / sizeof(fruit[0])는 하나짜리
+		std::cin >> fruit[i];
+		std::cout << fruit[i] << std::endl;
+	}
 }

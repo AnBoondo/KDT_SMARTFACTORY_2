@@ -23,7 +23,7 @@ int compare(int a, int b, int c) {
 
 
 
-	int main() {
+	int main(); {
 		int a, b, c;
 		std::cin >> a;
 		std::cin >> b;
