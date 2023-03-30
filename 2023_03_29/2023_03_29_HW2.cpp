@@ -25,11 +25,11 @@ int main() {
             
             ofstream file("member_tel.txt");
             if (file.is_open()) {
-                file << number << endl;
+                file << name << " " << number << endl;
                 string n;
                 ifstream inputfile("member_tel.txt");
                 
-    while (inputfile >> n) {
+               while (inputfile >> n) {
                     if (name == n) {
                         cout << "전화번호 수정하기" << endl;
                         cin >> number;
