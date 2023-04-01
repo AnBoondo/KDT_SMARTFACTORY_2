@@ -47,6 +47,7 @@ int main() {
 	do {
 		cin >> i;
 
+
 		if (i == 1) {
 			cin >> n;
 			cin >> a;
