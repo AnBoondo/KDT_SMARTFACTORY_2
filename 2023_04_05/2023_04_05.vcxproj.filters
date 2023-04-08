@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2023_04_05.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="난수 생성하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="로또 번호 추첨 프로그램.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="베스킨라빈스 31게임.cpp">
+    <ClCompile Include="타임어택 끝말잇기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,0 +1,5 @@
+﻿  2023_04_08.cpp
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\2023_04_08\2023_04_08.cpp(12,24): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\2023_04_08\2023_04_08.cpp(18,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\2023_04_08\2023_04_08.cpp(24,29): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  2023_04_08.vcxproj -> C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\2023_04_08\x64\Debug\2023_04_08.exe
