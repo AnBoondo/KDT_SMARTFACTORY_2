@@ -37,7 +37,6 @@ double calculator::div() {
 }
 
 
-
 int main() {
 	calculator cal;
 	string input = "AC";
