@@ -13,16 +13,16 @@ int main()
 
     srand(time(NULL));
 
-
     for (int i = 0; i < 6; i++) {
         int num = rand();
-        computer[6] = num % 25 + 1;
+        computer[i] = num % 25 + 1;
         for (int j = 0; j < i; j++) {
             if (computer[i] == computer[j]) {
                 i--;
+                break;
             }
         }
-   
+    }
 
     cout << "1부터 25까지의 숫자 중 중복 없이 6개를 입력하세요." << endl;
     for (int i = 0; i < 6; i++) {
