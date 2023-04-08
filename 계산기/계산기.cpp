@@ -12,28 +12,30 @@ public:
 	int sub();
 	int mul();
 	double div();
-
 };
+
 void calculator::sum(int x, int y)
 {
 	num1 = x;
 	num2 = y;
 }
+
 int calculator::add() {
 	return num1 + num2;
 }
+
 int calculator::sub() {
 	return num1 - num2;
 }
+
 int calculator::mul() {
 	return num1 * num2;
 }
+
 double calculator::div() {
-	if (num2 == 0) {
-		cout << "0으로 나눌 수 없습니다." << endl;
-	}
 	return (double)num1 / (double)num2;
 }
+
 
 
 int main() {
@@ -78,7 +80,7 @@ int main() {
 		cout << "AC를 입력하면 초기화, Y를 입력하면 계속 계산, EXIT는 종료: ";
 		cin >> input;
 
-			
+
 	}
 	return 0;
 }
