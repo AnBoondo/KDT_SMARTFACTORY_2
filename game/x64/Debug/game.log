@@ -1,0 +1,7 @@
+﻿  FileName.cpp
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\game\FileName.cpp(76,35): error C2248: 'Weapon::attackPower': protected 멤버('Weapon' 클래스에서 선언)에 액세스할 수 없습니다.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\game\FileName.cpp(9,9): message : 'Weapon::attackPower' 선언을 참조하십시오.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\game\FileName.cpp(7,7): message : 'Weapon' 선언을 참조하십시오.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\game\FileName.cpp(77,60): error C2248: 'Weapon::attackPower': protected 멤버('Weapon' 클래스에서 선언)에 액세스할 수 없습니다.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\game\FileName.cpp(9,9): message : 'Weapon::attackPower' 선언을 참조하십시오.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\game\FileName.cpp(7,7): message : 'Weapon' 선언을 참조하십시오.

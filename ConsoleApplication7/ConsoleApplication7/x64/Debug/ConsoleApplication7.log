@@ -1,0 +1,4 @@
+﻿  ConsoleApplication7.cpp
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(131,131): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(141,56): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ConsoleApplication7.vcxproj -> C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\ConsoleApplication7\x64\Debug\ConsoleApplication7.exe

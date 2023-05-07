@@ -1,0 +1,3 @@
+﻿  ConsoleApplication6.cpp
+C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\ConsoleApplication6\ConsoleApplication6.cpp(49,21): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  ConsoleApplication6.vcxproj -> C:\Users\안분도\Desktop\posco\github\KDT_SMARTFACTORY_2\ConsoleApplication6\x64\Debug\ConsoleApplication6.exe
